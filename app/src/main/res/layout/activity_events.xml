@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/white"
+      android:elevation="@dimen/elevation_appbar_secondary"
+      android:orientation="vertical"
+      android:padding="@dimen/margin_double"
+      >
+
+    <TextView
+        android:id="@+id/events_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_single"
+        android:drawablePadding="@dimen/margin_half"
+        android:drawableStart="@drawable/ic_person"
+        android:drawableTint="@color/colorAccent"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:text="John Smith"
+        />
+
+    <TextView
+        android:id="@+id/events_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/margin_half"
+        android:drawableStart="@drawable/ic_location"
+        android:drawableTint="@color/colorAccent"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:text="42.1232132321, 12.31231232"
+        />
+  </LinearLayout>
+
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/events_results"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      />
+
+</LinearLayout>

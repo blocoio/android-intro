@@ -1,0 +1,13 @@
+<resources>
+  <string name="app_name" translatable="false">Introduction</string>
+  <string name="name">Name</string>
+  <string name="next">Next</string>
+  <string name="name_missing">Fill out your name</string>
+  <string name="events">Events</string>
+  <string name="events_name">Name: %s</string>
+  <string name="events_location">Location: %1$f, %2$f</string>
+  <string name="events_search_error">Error getting events results</string>
+  <string name="share_message_hint">Please write your feedback</string>
+  <string name="share_image">Add an image to share</string>
+  <string name="share_button">Share</string>
+</resources>

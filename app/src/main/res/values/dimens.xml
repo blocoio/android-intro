@@ -1,0 +1,14 @@
+<resources>
+
+  <dimen name="margin_half">4dp</dimen>
+  <dimen name="margin_single">8dp</dimen>
+  <dimen name="margin_double">16dp</dimen>
+  <dimen name="margin_triple">24dp</dimen>
+
+  <dimen name="elevation_appbar">4dp</dimen>
+  <dimen name="elevation_appbar_secondary">2dp</dimen>
+  <dimen name="elevation_card">2dp</dimen>
+  <dimen name="elevation_button">2dp</dimen>
+  <dimen name="event_image_height">144dp</dimen>
+  <dimen name="share_image_height">144dp</dimen>
+</resources>

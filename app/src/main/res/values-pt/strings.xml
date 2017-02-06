@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="name">Nome</string>
+  <string name="next">Seguinte</string>
+  <string name="events">Eventos</string>
+  <string name="events_location">\"Localização: %1$f, %2$f\"</string>
+  <string name="events_name">Nome: %s</string>
+  <string name="events_search_error">Erro a obter resultados</string>
+  <string name="name_missing">Preenche o teu nome</string>
+  <string name="share_button">Partilhar</string>
+  <string name="share_image">Adiciona uma image para partilhar</string>
+  <string name="share_message_hint">Por favor escreva o seu feedback</string>
+</resources>
